@@ -32,11 +32,7 @@ export class GamesRepository implements IGamesRepository {
     // .createQueryBuilder('games')
     // .where('games.id=:id', { id })
     // .innerJoinAndSelect('games.users', 'users')
-<<<<<<< HEAD
     // .getMany()
-=======
-    // .getOneOrFail()
->>>>>>> a44736201dac9d0c479866bf30adcc42e7dd62fb
     const users = await this.repository
       .createQueryBuilder()
       .relation(Game, 'users')

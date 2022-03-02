@@ -2,4 +2,4 @@
 
 ## Desafio Database Queries
 
-Nesse desafio o desafio foi necessário criar consultas ao banco de dados com TypeORM usando: Query Builder, ORM e Raw Queries.
+Nesse desafio foi necessário criar algumas consultas ao banco de dados com TypeORM usando: Query Builder, ORM e Raw Queries.
